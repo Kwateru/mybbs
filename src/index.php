@@ -38,11 +38,11 @@
         <h1>お問い合わせ</h1>
         <p>開発用仮想環境のワークショップです.</p>
         <form action="." method="post">
-            お名前 <br>
+            お名前：*必須 <br>
             <input type="text" name="name"> <br>
-            メールアドレス <br>
+            メールアドレス：*必須 <br>
             <input type="email" name="email"> <br>
-            お問い合わせ内容 <br>
+            お問い合わせ内容：*必須 <br>
             <textarea name="textarea" cols="30" rows="10"></textarea> <br>
             <br>
             <input type="submit" value="送信">
